@@ -1,3 +1,17 @@
+Decoito Daniel
+3-3-2023
+
+create a react application that details five places that I would like to work at
+
+peer reviewd by John Magpantay
+Dan Did an Amazing Job showing me an alternative way to manipulate Buttons to show the TextContent in the page, Working as asked but I did notice that he didnt use BrowserRouter which is required in the project, So we had a talk with how he did his and im honestly impressed. I learned from him just by doing a peer review on his project, but It benefited me instead by learning new things. I gave him a headsup as well to add Browser Router just to be safe.
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

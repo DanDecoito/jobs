@@ -5,9 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #293B4B;
+  color: #200607;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.parentDiv{
+
+}
+
+.headerText{
+  font-size: 42px;
+ 
+  text-align: center;
+  color: #200607;
+  margin-bottom: 40px;
+}
+
+.displayBorder{
+  margin-top: 100px;
+  background-color: #293B4B;
+  height: 650px;
+  padding: 30px;
+}
+.leftDisplayBox{
+  background-color: antiquewhite;
+  border-right: 10px solid #293B4B;
+}
+.rightDisplayBox {
+  background-color: antiquewhite;
+  border-left: 10px solid #293B4B;
+}
+.infoText {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1px;
+}
+.responseText {
+  margin-left: 20px;
+}
+.displayImage {
+  width: 100%;
+  height: 50%;
+}
+.bkImg{
+  background-image: url('./images/google_logo.png');
+}
+.testOne{
+  height: 20px;
+}
+.logoButtons{
+  height: 40px;
+}
+.spacer{
+  height: 40px;
 }

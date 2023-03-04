@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import HeaderStuff from './component/header/header'
+import BtnComponent from './component/btncomponent/buttonComponent';
+import DisplayComponent from './component/displaycomponent/displaycomponent';
+import LandingPage from './component/landingpage/landingPage';
+import HomePage from './component/redundentPage/blankPage';
 import './App.css';
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import imgOne  from './images/google_logo.png'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="homePage" element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
+
+    // <div>
+    //  <HeaderStuff />
+    //  <BtnComponent />
+    //  {/* <DisplayComponent /> */}
+    // </div>
   );
 }
 
